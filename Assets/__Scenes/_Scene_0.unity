@@ -1413,6 +1413,10 @@ PrefabInstance:
       propertyPath: changeDirChance
       value: 0.02
       objectReference: {fileID: 0}
+    - target: {fileID: 7835379012835074987, guid: d65d77a07ba84a24a82340d432f576c3, type: 3}
+      propertyPath: leftAndRightEdge
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 8311586285613835544, guid: d65d77a07ba84a24a82340d432f576c3, type: 3}
       propertyPath: m_IsKinematic
       value: 1
