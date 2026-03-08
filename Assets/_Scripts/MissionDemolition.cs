@@ -30,8 +30,8 @@ public class MissionDemolition : MonoBehaviour
  
      void Start()
     {
-        /*S = this; // Define the Singleton                                      // c
-
+         S = this; // Define the Singleton                                      // c
+        /*
          level = 0;
          shotsTaken = 0;
          levelMax = castles.Length;
@@ -83,7 +83,7 @@ public class MissionDemolition : MonoBehaviour
             FollowCam.SWITCH_VIEW(FollowCam.eView.both);
 
                 // Start the next level in 2 seconds
-                Invoke("NextLevel", 2f);                                           // e
+                //Invoke("NextLevel", 2f);                                           // e
              }
      }
  
