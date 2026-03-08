@@ -8,6 +8,7 @@ public class ScoreManager : MonoBehaviour
     public TMP_Text scoreText; // Use TMP_Text for TextMeshPro
     public int lives = 3;
     public TMP_Text livesText;
+    public float ballspeedMultiplier = 0.2f;
     private void Awake()
     {
         if (instance == null) instance = this;
@@ -21,6 +22,7 @@ public class ScoreManager : MonoBehaviour
     public void AddScore(int points)
     {
         score += points;
+        ballspeedMultiplier = 0.2f + (score / 50) * 0.1f;
         UpdateUI();
     }
 

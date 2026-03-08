@@ -167,6 +167,7 @@ MonoBehaviour:
   scoreText: {fileID: 952016011}
   lives: 3
   livesText: {fileID: 1800525190}
+  ballspeedMultiplier: 0.6
 --- !u!1 &408326422
 GameObject:
   m_ObjectHideFlags: 0
@@ -1368,7 +1369,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7835379012835074987, guid: d65d77a07ba84a24a82340d432f576c3, type: 3}
       propertyPath: leftAndRightEdge
-      value: 14
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8311586285613835544, guid: d65d77a07ba84a24a82340d432f576c3, type: 3}
       propertyPath: m_IsKinematic
